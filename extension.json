@@ -1,0 +1,17 @@
+{
+"name": "Bz2OnDemand",
+"author": "github.com/The-Picard",
+"url": "https://github.com/The-Picard/Bz2OnDemand",
+"version": "1.0.0",
+"license-name": "MIT",
+"description": "Find, decompress, and import articles from multistream.xml.bz2 Wikipedia dumps on demand, as they are requested by users.",
+"type": "other",
+"Hooks": {
+"ShowMissingArticle": "Bz2OnDemand::onEvent"
+},
+"AutoloadClasses": {
+"Bz2OnDemand": "includes/Bz2OnDemand.php"
+},
+"manifest_version": 1
+}
+
